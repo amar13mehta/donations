@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+.bg{
+    background: url('task.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100vh;
+    width: 98.9vw;
+    z-index: -1;
+    filter: blur(2px);
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+.donate{
+    color: rgb(50, 72, 221);
+    background-color:white ;
+    font-style: italic;
+}
+
+.text1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+.text2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
+    color: white;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width:1000px){
+    .text{
+        font-size: 30px;
+    }
+
+    .text1{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .text{
+        font-size: 18px;
+    }
+
+    .text1{
+        font-size: 10px;
+    }
+}
+.bt{
+    height: 55px;
+    width: 125px;
+ transition: .5s;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: row;
+ background-color: rgb(50, 72, 221);
+ text-decoration: none;
+ color: white;
+ border-radius: 7px;
+
+}
+.bt:hover{
+    transition: .5s;
+    background-color: white;
+    border: 2px solid;
+    border-color: rgb(50, 72, 221);
+    color: rgb(50, 72, 221);
+}
